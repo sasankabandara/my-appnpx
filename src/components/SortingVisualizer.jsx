@@ -29,7 +29,7 @@ const SortingVisualizer = () => {
   const randomizeArray = () => {
     if (isSorting) return;
     const newArray = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 50; i++) {
       newArray.push(randomIntFromInterval(50, 500));
     }
     setArray(newArray);

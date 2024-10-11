@@ -127,7 +127,7 @@ const SortingVisualizer = () => {
 
   return (
     <div className="visualizer-container">
-      <h1>Sorting Algorithm Visualizer</h1>
+      <h1>Sorting Algorithm Visualizer 2.0</h1>
       <Controls
         onRandomize={randomizeArray}
         onSort={handleSort}

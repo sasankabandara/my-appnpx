@@ -1,0 +1,9 @@
+.visualizer-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.visualizer-container h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}

@@ -1,0 +1,17 @@
+.bar-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.bar {
+  margin: 0 1px;
+  background-color: turquoise;
+  transition: height 0.3s, background-color 0.3s;
+}

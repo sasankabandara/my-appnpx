@@ -1,0 +1,42 @@
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls button,
+.controls select {
+  margin: 5px 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+.slider-container label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.slider-container input[type='range'] {
+  margin-right: 10px;
+}
